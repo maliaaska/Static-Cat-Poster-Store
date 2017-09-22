@@ -16,15 +16,48 @@
 .col-11 {width: 91.66%;}
 .col-12 {width: 100%;}
 
+body {
+    padding: 0em;
+}
 html {
     font-size:10px;
 
 }
 
-#nav-bar {
-    
-    height: 5em;
-    font-size: 2em;
-    color: #727171;
+ul {
     background-color:  #F1F0F1;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    color: #727171;
+    font-size: 2em;
+    
+}
+
+li {
+    float: left;
+    float: right;
+    list-style: none;
+
+    font-size: 1.5em;
+    text-align: center;
+    
+}
+
+li a {
+    padding: 1.4em 1.6em;
+}
+li a:hover {
+    background-color: #555;
+    color: white;
+    
+}
+
+#home {
+    color: #959A47;
+}
+
+#home:hover {
+    background-color: #959A47;
+    color: white;
 }
