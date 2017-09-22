@@ -85,9 +85,8 @@ p {
 
 
 @media (max-width: 649px) {
-    div {
+    .col-4 {
         width: 100%;
-
     }
     li {
         width: 50%;
@@ -96,7 +95,7 @@ p {
    } 
  
 @media (min-width: 650px) and (max-width: 999px) {
-div {
-    width: 50%;
-}
+    .col-4 {
+        width: 50%;
+    }
 }
