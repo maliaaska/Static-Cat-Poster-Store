@@ -10,26 +10,150 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
-    <ul>
-      <li><a [routerLink]="['home']">Home</a></li>
-      <li><a [routerLink]="['my-list']">List</a></li>
-    </ul>
-
-  <p>
-
-  </p>
-  <hr>
-
-
-  <p>
-      Check the list of our Cat Postcard and choose your favorite one! <br>
-  </p>
-
-    <div class="col-12">
-   <img src="assets/tabby-cat-names.jpg" id="6"/>
-
-
+    <ul class="col-12">
+        <li><a [routerLink]="['my-list']">List</a></li>
+        <li ><a id="home"[routerLink]="['home']">Home</a></li>
+      </ul>
+      
+      <h1>
+          Chose your favourite Cat Poster!
+        </h1>
+        
+        <div class="col-4">
+          <img src="assets/sweet-life.jpg" id="1"/>
+          <hr>
+          <div class="title">
+            <p><strong>Name: </strong>"Sweet Life"</p>
+            <p><strong>Price: </strong> 2$</p>
+            <button (click)="onButtonClick()">Add to Cart</button>
+          </div>
+          <hr>
+        </div>
+        <div class="col-4">
+            <img src="assets/early.jpg" id="2"/>
+            <hr>
+            <div class="title">
+              <p><strong>Name: </strong>"Early Morning"</p>
+              <p><strong>Price: </strong> 5$</p>
+              <button (click)="onButtonClick()">Add to Cart</button>
+            </div>
+            <hr>
+        </div>
+        <div class="col-4">
+            <img src="assets/akuku.jpg" id="3"/>
+            <hr>
+            <div class="title">
+              <p><strong>Name: </strong>"Akuku"</p>
+              <p><strong>Price: </strong> 8$</p>
+              <button (click)="onButtonClick()">Add to Cart</button>
+            </div>
+            <hr>
+        </div>
+        <div class="col-4">
+          <img src="assets/faithful-friend.jpg" id="4" />
+          <hr>
+          <div class="title">
+            <p><strong>Name: </strong>"Faithful friend"</p>
+            <p><strong>Price: </strong> 3$</p>
+            <button (click)="onButtonClick()">Add to Cart</button>
+          </div>
+          <hr>
+        </div>
+        <div class="col-4">
+            <img src="assets/give-me-a-break.jpg" id="5"/>
+            <hr>
+            <div class="title">
+              <p><strong>Name: </strong>"Give me a break"</p>
+              <p><strong>Price: </strong> 2$</p>
+              <button (click)="onButtonClick()">Add to Cart</button>
+            </div>
+            <hr>
+        </div>
+        <div class="col-4">
+           <img src="assets/group-bath.jpg" id="6"/>
+           <hr>
+           <div class="title">
+             <p><strong>Name: </strong>"Group Bath"</p>
+             <p><strong>Price: </strong> 10$</p>
+             <button (click)="onButtonClick()">Add to Cart</button>
+           </div>
+           <hr>
+        </div>
+        <div class="col-4">
+            <img src="assets/yin-yang.jpg" id="7"/>
+            <hr>
+            <div class="title">
+              <p><strong>Name: </strong>"Yin Yang"</p>
+              <p><strong>Price: </strong> 9.5$</p>
+              <button (click)="onButtonClick()">Add to Cart</button>
+            </div>
+            <hr>
+        </div>
+        <div class="col-4">
+          <img src="assets/mouse-hunter.jpg" id="8"/>
+          <hr>
+          <div class="title">
+            <p><strong>Name: </strong>"Mouse Hounter"</p>
+            <p><strong>Price: </strong> 6$</p>
+            <button (click)="onButtonClick()">Add to Cart</button>
+          </div>
+          <hr>
+        </div>
+        <div class="col-4">
+          <img src="assets/tumblr_m4sk11JHqh1qd477zo1_1280.jpg" id="9" />
+          <hr>
+          <div class="title">
+            <p><strong>Name: </strong>"I am so sweet"</p>
+            <p><strong>Price: </strong> 5$</p>
+            <button (click)="onButtonClick()">Add to Cart</button>
+          </div>
+          <hr>
+        </div>
+        <div class="col-4">
+          <img src="assets/universe.jpg" id="10"/>
+          <hr>
+          <div class="title">
+            <p><strong>Name: </strong>"Universe"</p>
+            <p><strong>Price: </strong> 6$</p>
+            <button (click)="onButtonClick()">Add to Cart</button>
+          </div>
+          <hr>
+        </div>
+        <div class="col-4">
+          <img src="assets/who-is-there.jpg" id="11" />
+          <hr>
+          <div class="title">
+            <p><strong>Name: </strong>"Who is there?"</p>
+            <p><strong>Price: </strong> 5$</p>
+            <button (click)="onButtonClick()">Add to Cart</button>
+          </div>
+          <hr>
+        </div>
+        <div class="col-4">
+          <img src="assets/winner.jpg" id="12"/>
+          <hr>
+          <div class="title">
+            <p><strong>Name: </strong>"Winner"</p>
+            <p><strong>Price: </strong> 8$</p>
+            <button (click)="onButtonClick()">Add to Cart</button>
+          </div>
+          <hr>
+        </div>
+        <div class="col-4">
+            <img src="assets/love-my-chick.jpg" id="13" />
+            <hr>
+            <div class="title">
+              <p><strong>Name: </strong>"Faithful friend"</p>
+              <p><strong>Price: </strong> 5$</p>
+              <button (click)="onButtonClick()">Add to Cart</button>
+            </div>
+            <hr>
+          </div>
+        
+      <footer>
+        <ul>
+        </ul>
+      </footer>
 
 
 </body>
