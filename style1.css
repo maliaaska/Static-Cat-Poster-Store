@@ -16,6 +16,9 @@
 .col-11 {width: 91.66%;}
 .col-12 {width: 100%;} 
 
+body {
+    padding: 0em;
+}
 
 html {
     font-size:10px;
@@ -24,18 +27,23 @@ html {
 }
 
 ul {
-    position: relative;
+    position: fixed;
+    overflow: hidden;
+    top: 0px; 
+    width: 100%;
     background-color:  #F1F0F1;
     margin: 0;
     margin-bottom: 1em;
-    padding: 0;
-    overflow: hidden;
+    padding: 0.5em;
     color: #727171;
-    font-size: 1.5em;
+    font-size: 1.2em;
     list-style: outside none none;
+    z-index: 9;     
     
 }
-
+#first-content {
+    margin-top: 2em;
+}
 li {
     float: left;
     float: right;
@@ -68,9 +76,9 @@ div img {
 }
 
 div {
-    height: 60em;
+    height: 40em;
     float: left;
-    padding: 10px;
+    padding: 20px;
     margin-bottom: 4em;
     position: relative;
 }
@@ -88,6 +96,18 @@ p {
     font-size: 1.6rem;
 }
 
+footer {
+    position: fixed;
+    bottom: 0px;
+    z-index: 9;
+    width: 100%;
+}
+
+.popover {
+    max-height: 100%;
+    max-width: 100%;
+    color: black;
+}
 
 @media (max-width: 649px) {
     .col-4 {

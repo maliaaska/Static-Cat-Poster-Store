@@ -3,19 +3,20 @@
 <head>
   <meta charset="utf-8">
   <title>TechTestAtresmedia</title>
-  
-
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <!-- <link rel="icon" type="image/x-icon" href="favicon.ico"> -->
   <link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
   <ul class="col-12">
-    <li><a [routerLink]="['my-list']">List</a></li>
-    <li ><a id="home"[routerLink]="['home']">Home</a></li>
+    <li><a  href="./index-1.html">List</a></li>
+    <li ><a id="home" href="./index.html">Home</a></li>
   </ul>
+
   <div class="col-6" id="main">
     <div class="greeting">
       <p id="welcome">
@@ -26,11 +27,16 @@
         <img src="./images/cat1.jpg" alt="Katty" id="cat1">
     </div>
   </div>
-  
   <footer>
     <ul>
 
     </ul>
   </footer>
+
+  <script>
+      $(document).ready(function(){
+          $('[data-toggle="popover"]').popover(); 
+      });
+  </script>
 </body>
 </html>

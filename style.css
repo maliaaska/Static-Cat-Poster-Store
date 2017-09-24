@@ -16,35 +16,31 @@
 .col-11 {width: 91.66%;}
 .col-12 {width: 100%;} 
 
-  
-    
 body {
     padding: 0em;
-    
-        
-    
-};
-
-
+}
 html {
     font-size:10px;
     padding: 0px;
     margin: 0px;
-
 }
 
 ul {
-    position: relative;
+   
+    overflow: hidden;
+    top: 0px; 
+    width: 100%;
     background-color:  #F1F0F1;
     margin: 0;
     margin-bottom: 1em;
-    padding: 0;
-    overflow: hidden;
+    padding: 0.5em;
     color: #727171;
     font-size: 1.2em;
     list-style: outside none none;
+    z-index: 9;
     
 }
+
 
 li {
     float: left;
@@ -52,7 +48,6 @@ li {
     list-style: none;
     font-size: 1.5em;
     text-align: center;
-    
 }
 
 li a {
@@ -61,7 +56,6 @@ li a {
 li a:hover {
     background-color: #555;
     color: white;
-    
 }
 
 #home {
@@ -73,21 +67,17 @@ li a:hover {
     color: white;
 }
 #main {
-   
     position: absolute;
     left: 25%;
     top: 25%;
     height: 58%;
     padding-top: 0em;
-    background-color: #2693E6;
-    
+    background-color: #2693E6; 
 }
 .greeting {
     width: 100%;
     color: white;
-    text-align: center;
-
-    
+    text-align: center; 
 }
 #welcome {
     font-size: 3em;
@@ -103,6 +93,14 @@ img {
     vertical-align: middle;
 }
 
+footer {
+    position: fixed;
+    bottom: 0px;
+    z-index: 9;
+    width: 100%;
+    padding: 0px;
+}
+
 
 @media (max-width: 649px) {
    
@@ -112,7 +110,6 @@ img {
    }
    #welcome {
        font-size: 1.8em;
-
    }
   } 
 
