@@ -54,19 +54,23 @@ li {
 
 li a {
     padding: 1.4em 1.6em;
-    color: white;
 }
 li a:hover {
     background-color: #555;
     color: white;
     
 }
+
 #home {
     color: #959A47;
 }
 
 #home:hover {
     background-color: #959A47;
+    color: white;
+}
+
+#list {
     color: white;
 }
 div img {
