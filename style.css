@@ -70,6 +70,7 @@ li a:hover {
     color: white;
 }
 #main {
+    border-radius: 5px;
     position: absolute;
     left: 25%;
     top: 25%;
@@ -93,12 +94,14 @@ li a:hover {
 #image-div {
     width: 100%;
     height: 80%;
+    border-radius: 5px;
     
 }
 img {
     width:100%;
     height:100%;
     vertical-align: middle;
+    border-radius: 5px;
 }
 
 footer {
